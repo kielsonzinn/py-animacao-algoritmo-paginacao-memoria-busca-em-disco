@@ -1,3 +1,17 @@
+# TODO's
+
+- Ajustar para todos conforme for passando mudar a cor para verde
+- Ajustar para regerar as bolinhas quando conseguir pegar as 10
+- Ajustar para no de paginação de memoria, ter um label embaixo de cada card, que horas ele foi adicionado e que horas ele foi acessado
+
+# Executando
+
+```sh
+pip install -r requirements.txt
+python substituicao_de_pagina.py
+python busca_em_disco.py
+```
+
 # Algoritmo de substituição de página
 
 ## FIFO (First-In, First-Out)
