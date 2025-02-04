@@ -1,8 +1,11 @@
 # TODO's
 
-- Ajustar para todos conforme for passando mudar a cor para verde
-- Ajustar para regerar as bolinhas quando conseguir pegar as 10
-- Ajustar para no de paginação de memoria, ter um label embaixo de cada card, que horas ele foi adicionado e que horas ele foi acessado
+- Ajustar para no de paginação de memória, ter um label em baixo de cada card, que horas ele foi adicionado e que horas ele foi acessado
+
+# O que foi usado
+
+ - [Python](https://www.python.org/doc)
+ - [Pygame](https://www.pygame.org/docs)
 
 # Executando
 
