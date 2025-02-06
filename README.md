@@ -48,9 +48,9 @@ Passo	Página Acessada	Estado da Memória	Falta de Página?	Página Removida
 7		5				[1, 2, 5]			Sim					4 (menos usada recentemente)
 8		1				[1, 2, 5]			Não					-
 9		2				[1, 2, 5]			Não					-
-10		3				[1, 2, 3]			Sim					1 (menos usada recentemente)
+10		3				[1, 2, 3]			Sim					5 (menos usada recentemente)
 11		4				[4, 2, 3]			Sim					1 (menos usada recentemente)
-12		5				[4, 5, 3]			Sim					5 (menos usada recentemente)
+12		5				[4, 5, 3]			Sim					2 (menos usada recentemente)
 ```
 
 # Algoritmo de busca em disco

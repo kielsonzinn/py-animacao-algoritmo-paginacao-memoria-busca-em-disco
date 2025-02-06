@@ -50,7 +50,7 @@ def draw_disk(head_position, requests, request_numbers, algorithm_name, numbers_
 def fcfs_algorithm():
     requests = sorted([random.randint(50, disk_size) for _ in range(num_requests)])
     request_numbers = random.sample(range(1, 11), len(requests))
-    head_position = 50
+    head_position = 0
     algorithm_name = 'FCFS (First Come, First Served)'
 
     ordered_requests = []

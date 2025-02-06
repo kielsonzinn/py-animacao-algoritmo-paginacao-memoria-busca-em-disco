@@ -41,9 +41,9 @@ def fifo_simulation(pages, frame_count):
     page_index = 0
     while page_index < len(pages):
         page = pages[page_index]
-        if page not in frames:
+        if page not in frames: # a memoria nao esta carregada
             if len(frames) < frame_count:
-                frames.append(page)
+                frames.append(page) # tem memoria disponível so aloca
             else:
                 removed = queue.popleft()  # Primeiro a entrar, primeiro a sair
                 frames[frames.index(removed)] = page
@@ -60,9 +60,9 @@ def lru_simulation(pages, frame_count):
     page_index = 0
     while page_index < len(pages):
         page = pages[page_index]
-        if page not in frames:
+        if page not in frames: # a memoria nao esta carregada
             if len(frames) < frame_count:
-                frames.append(page)
+                frames.append(page) # tem memoria disponível so aloca
             else:
                 lru_page = min(frames, key=lambda x: access_time[x])  # O que foi acessado há mais tempo, ou seja, o tempo mais antigo de acesso
                 frames[frames.index(lru_page)] = page
